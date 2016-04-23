@@ -1,16 +1,15 @@
 <?php
-
 /*
   Plugin Name : Sample Configuration
   Description : A plugin showcasing a simple configuration page in the admin panel
                 for some arbitrary data.
-  Version			:	0.1
+  Version     :	0.1
   Author      :	Lawrence Okoth-Odida
   Author URI  : https://github.com/lokothodida/
 */
 
 // Constants
-define('CFG_ID',      basename(__FILE__, '.php'));      // Plugin ID
+define('CFG_ID', basename(__FILE__, '.php'));           // Plugin ID
 define('CFG_VERSION', '0.1');                           // Plugin Version
 define('CFG_PLUGINPATH', GSPLUGINPATH . CFG_ID . '/');  // Plugin folder path
 define('CFG_DATAPATH', GSDATAOTHERPATH . CFG_ID . '/'); // Plugin data path
