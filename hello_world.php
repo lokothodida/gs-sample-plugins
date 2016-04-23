@@ -17,14 +17,14 @@ i18n_merge(HW_ID) || i18n_merge(HW_ID, 'en_US');
 
 // Register plugin
 register_plugin(
-	HW_ID,                         // Plugin id
-	hw_i18n('TITLE'),              // Plugin name
-	HW_VERSION,                    // Plugin version
-	'Chris Cagle',                 // Plugin author
-	'http://www.cagintranet.com/', // author website
-	hw_i18n('DESC'),               // Plugin description
-	'theme',                       // Page type - on which admin tab to display
-	'hw_admin'                     // Main function (administration)
+  HW_ID,                         // Plugin id
+  hw_i18n('TITLE'),              // Plugin name
+  HW_VERSION,                    // Plugin version
+  'Chris Cagle',                 // Plugin author
+  'http://www.cagintranet.com/', // author website
+  hw_i18n('DESC'),               // Plugin description
+  'theme',                       // Page type - on which admin tab to display
+  'hw_admin'                     // Main function (administration)
 );
 
 // Actions/Filters
@@ -37,7 +37,7 @@ add_action('theme-footer', 'hw_footer');
 // Functions
 // Echos hello world
 function hw_footer() {
-	echo '<p>' . hw_i18n('HELLO_WORLD') . '</p>';
+  echo '<p>' . hw_i18n('HELLO_WORLD') . '</p>';
 }
 
 // Admin function
