@@ -19,3 +19,7 @@ Replaces (% advanced_placeholder[params]%) with content parameterised by [params
 
 # Sample Configuration
 Gives admin a configuration object that can be modified from the admin panel.
+
+# Basic Items
+Gives admin an initially empty collection of data that can be viewed/created/edited/deleted
+in the admin panel like Pages (or Items from the Items Manager plugin).
