@@ -27,8 +27,8 @@ in the admin panel like Pages (or Items from the Items Manager plugin).
 Displays custom content on a non-existent page with the slug `virtual-page`.
 
 ## Sample Pages
-Uses the **Sample Items** and **Sample Configuration** plugins to display content from
+Uses the **Sample Items** and **Sample Settings** plugins to display content from
 the items as front-end pages.
 
-# Sample Items Search
-Uses the **Sample Items** plugin and [I18N Search](http://get-simple.info/extend/plugin/i18n/82/) to make the sample items searchable.
+## Sample Items Search
+Uses the **Sample Items** plugin and **[I18N Search](http://get-simple.info/extend/plugin/i18n/82/)** to make the sample items searchable.
