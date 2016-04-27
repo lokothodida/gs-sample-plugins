@@ -32,3 +32,7 @@ the items as front-end pages.
 
 ## Sample Items Search
 Uses the **Sample Items** plugin and **[I18N Search](http://get-simple.info/extend/plugin/i18n/82/)** to make the sample items searchable.
+
+## Sample Items AJAX
+Uses **Sample Items Search** to display the items on a virtual page `sample-items-ajax`, where
+the items are requests via AJAX. Demonstrates the basics of building an API that returns JSON data.

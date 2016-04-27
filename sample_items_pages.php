@@ -37,7 +37,7 @@ register_plugin(
 // Display the virtual page once the front page globals are set
 add_action('index-post-dataindex', 'sample_ipage_display');
 
-// Functions
+// == Functions ==
 // Modifies the $data_index properties when a page is loaded
 function sample_ipage_display() {
   // Get $data_index object
